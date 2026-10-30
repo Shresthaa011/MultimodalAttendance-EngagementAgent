@@ -1,0 +1,68 @@
+# ==============================================================================
+# Multimodal Attendance & Engagement Agent - Backend Dependencies
+# Milestone 1: Environment & Dependency Foundation
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Computer Vision Libraries
+# ------------------------------------------------------------------------------
+# OpenCV: Real-time image processing, frame decoding, drawing annotations & visual transformations
+opencv-python
+
+# MediaPipe: Lightweight, high-fidelity facial landmark detection, iris tracking & head pose estimation
+mediapipe
+
+# DeepSORT: Deep-learning-based multi-object real-time visual tracking across video frames
+deep-sort-realtime
+
+# DeepFace: Lightweight facial recognition and verification against enrolled student databases
+deepface
+werkzeug
+
+# ------------------------------------------------------------------------------
+# 2. Audio Processing Libraries
+# ------------------------------------------------------------------------------
+# Librosa: Audio signal analysis, spectral feature extraction, energy, and pitch/chroma processing
+librosa
+
+# SoundFile: Low-latency reading and writing of sound files via libsndfile
+soundfile
+
+# ------------------------------------------------------------------------------
+# 3. Backend & API Libraries
+# ------------------------------------------------------------------------------
+# FastAPI: High-performance asynchronous REST & WebSocket web framework
+fastapi
+
+# Uvicorn: Lightning-fast ASGI server implementation for async Python web applications
+uvicorn
+
+# WebSockets: Real-time bi-directional streaming between frontend clients and backend agent
+websockets
+
+# Python-Multipart: Streaming multipart/form-data parser for file uploads (rosters, audio/video)
+python-multipart
+
+# SQLAlchemy: Modern ORM and SQL toolkit for database modeling and attendance records
+sqlalchemy
+
+# Python-Dotenv: Environment variable loader for secure configuration and API keys
+python-dotenv
+
+# ------------------------------------------------------------------------------
+# 4. Data Processing & LLM Agent
+# ------------------------------------------------------------------------------
+# NumPy: Fundamental package for multi-dimensional numerical computing & matrix operations
+numpy
+
+# Pandas: Data structures and time-series analysis for attendance aggregation & reporting
+pandas
+
+# Groq: Ultra-low latency inference client for LLM-driven attendance & engagement reasoning
+groq
+
+# ------------------------------------------------------------------------------
+# 5. Interactive Dashboard & Visualization Layer
+# ------------------------------------------------------------------------------
+# Streamlit: Interactive analytical dashboard for attendance records, engagement timelines, & pedagogical suggestions
+streamlit
